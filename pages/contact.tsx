@@ -33,7 +33,7 @@ const ContactPage = () => {
     }
 
     const postMessage = () => {
-        fetch('https://formspree.io/f/{your_form_id}', {
+        fetch('https://formspree.io/f/mrbpbkko', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -44,11 +44,17 @@ const ContactPage = () => {
                 setFormStatus(FORM_STATE.SUCCESS);
                 setFormData({ name: '', email: '', message: '' });
             } else {
-                setFormStatus(FORM_STATE.FAILED);
+                res.json().then((data) => {
+                    console.error('Form submission error:', data);
+                    setFormStatus(FORM_STATE.FAILED);
+                }).catch((error) => {
+                    console.error('Error parsing response:', error);
+                    setFormStatus(FORM_STATE.FAILED);
+                });
             }
         }).catch((reason) => {
+            console.error('Form submission error:', reason);
             setFormStatus(FORM_STATE.FAILED);
-            console.error(reason);
         });
     }
 
