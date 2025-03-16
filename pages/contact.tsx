@@ -1,8 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import styles from '../styles/contact.module.css';
 
 const ContactPage = () => {
-    document.title = 'Priti Bhunia | Contact';
+    useEffect(() => {
+        if (typeof document !== 'undefined') {
+            document.title = 'Priti Bhunia | Contact';
+        }
+    }, []);
+
     const FORM_STATE = { INIT: 1, SUBMITTED: 2, SUCCESS: 3, FAILED: 4 };
     const [formData, setFormData] = useState({ name: '', email: '', message: '' });
     const [formStatus, setFormStatus] = useState(FORM_STATE.INIT);

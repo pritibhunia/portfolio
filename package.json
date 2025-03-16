@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "next build && next export && gh-pages -d out"
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.0.14",
@@ -23,7 +24,9 @@
     "@types/prop-types": "^15.7.14",
     "@types/react": "latest",
     "@types/react-dom": "^19.0.4",
+    "gh-pages": "^6.3.0",
     "tailwindcss": "^4.0.14",
     "typescript": "latest"
-  }
+  },
+  "homepage": "https://pritibhunia.github.io/pritibhunia.github.io"
 }
