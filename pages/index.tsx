@@ -9,7 +9,6 @@ const HomePage = () => {
   return (
     <div className={styles.homeContainer}>
       <div className="row flex-grow-1 align-items-center justify-content-center">
-        <div className={styles.bgImage}></div>
         <div className={`${styles.banner} col-lg-6 col-md-12`}>
           <Image
             className={`${styles.bannerImg} ani-popIn`}
