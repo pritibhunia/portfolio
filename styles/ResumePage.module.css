@@ -1,0 +1,106 @@
+.ResumePage {
+  height: 100%;
+  background-color: white;
+  color: #727272;
+  padding-top: 50px;
+  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.ResumePage iframe {
+  width: 100%;
+  height: 1865px;
+}
+
+.ResumePage p,
+.ResumePage ul,
+.ResumePage ol,
+.ResumePage table,
+.ResumePage pre,
+.ResumePage dl {
+  margin: 0 0 20px;
+}
+
+.ResumePage a {
+  color: #267cb9;
+  text-decoration: none;
+}
+
+.ResumePage a:hover {
+  font-weight: bold;
+}
+
+.ResumePage h1 {
+  font-size: 28px;
+  color: #222222;
+}
+
+.ResumePage h2 {
+  font-size: 21px;
+  color: #393939;
+  font-weight: 700;
+}
+
+.ResumePage strong {
+  color: #222;
+  font-weight: 700;
+}
+
+.ResumePage > div {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header .title {
+  text-align: start;
+  font-weight: 700;
+  font-size: 28px;
+  margin-block-end: 1rem;
+}
+
+.header .image {
+  max-width: 70%;
+  width: 100%;
+  height: 270px;
+  margin-block-end: 1rem;
+}
+
+.header .email {
+  color: #727272;
+  font-size: 14px;
+  margin-bottom: 1rem;
+}
+
+.header .githubcv {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  column-gap: 22px;
+}
+
+.header .githubcv a {
+  font-size: 28px;
+  line-height: 1.1;
+  vertical-align: middle;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  color: #267cb9;
+  text-decoration: none;
+}
+
+.header .githubcv a:hover {
+    background-color: #267cb9;
+    color: white;
+  }
+
+.body {
+  text-align: start;
+  padding-left: 100px;
+  padding-bottom: 50px;
+}

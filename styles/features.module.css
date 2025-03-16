@@ -1,0 +1,36 @@
+.featureList {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 4rem;
+}
+
+.featureItem {
+    counter-increment: feature;
+    flex: 1 1 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+    transform: scale(0.8);
+    opacity: 0.8;
+  }
+
+.featureBanner {
+    width: 100px;
+    height: 100px;
+    background-color: #feffff;
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+    margin-bottom: 10px;
+    padding: 15px;
+  }
+
+.featureTitle {
+  color: #38b2ac;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.featureDesc {
+  font-size: 1rem;
+}

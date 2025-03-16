@@ -1,0 +1,64 @@
+{
+    "blogs": [
+        {
+            "blogId": 1,
+            "blogImg": "/DAP.jpg",
+            "blogTitle": "Data Analytics Platform",
+            "blogDesc": "As a Master's student this was my first end-to-end data analytics project levereging Machine Learning Models.",
+            "blogUrl": {
+                "url": "https://github.com/pritibhunia/DataAnalyticsPlatform",
+                "urlTitle": "See Inside"
+            }
+        },
+        {
+            "blogId": 2,
+            "blogImg": "/coffee.jpeg",
+            "blogTitle": "A cup of Coffee and peace of my mind",
+            "blogDesc": "When we are grappling through the day and striving to keep our inner selves together, nothing can be better than a cup of coffee to help us fight through that.",
+            "blogUrl": {
+                "url": "https://medium.com/@pritibhunia/thoughts-over-a-cup-of-coffee-d1f23b644b4a",
+                "urlTitle": "Share my thoughts!"
+            }
+        },
+        {
+            "blogId": 3,
+            "blogImg": "/logos/devops.png",
+            "blogTitle": "End-to-end Pipeline for Azure Kubernetes Services",
+            "blogDesc": "This blog covers the creation of an end-to-end pipeline for deploying applications to Azure Kubernetes Services (AKS) using Docker and YAML.",
+            "blogUrl": {
+                "url": "https://medium.com/@pritibhunia/end-to-end-pipeline-for-azure-kubernetes-services",
+                "urlTitle": "See Inside"
+            }
+        },
+        {
+            "blogId": 4,
+            "blogImg": "/apim.jpeg",
+            "blogTitle": "Integrating Azure API Management with Azure Virtual Network and Azure Application Gateway",
+            "blogDesc": "Read the full article on Medium.",
+            "blogUrl": {
+                "url": "https://medium.com/@pritibhunia/integrating-azure-api-management-with-azure-virtual-network-and-azure-application-gateway-920eb532c049",
+                "urlTitle": "Take a Look!"
+            }
+        },
+        {
+            "blogId": 5,
+            "blogImg": "/Goa.jpg",
+            "blogTitle": "A trip to remember",
+            "blogDesc": "Me and my friends: A journey which I am going to remember for my whole life.",
+            "blogUrl": {
+                "url": "https://pritibhunia.medium.com/go-goa-the-advent-of-a-wonderful-journey-1690f571667",
+                "urlTitle": "Take a Look!"
+            }
+        },
+        {
+            "blogId": 6,
+            "blogImg": "/iad.jpg",
+            "blogTitle": "Component Details Extraction from Architecture Diagram",
+            "blogDesc": "Java",
+            "blogUrl": {
+                "url": "https://github.com/pritibhunia/IADExtraction",
+                "urlTitle": "Know More"
+            }
+        }
+    ]
+}

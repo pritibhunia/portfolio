@@ -1,0 +1,96 @@
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #1e1e1e;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.row {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center; /* Center the content horizontally */
+    width: 100%;
+    margin: 0;
+}
+
+/* Profile Photo */
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerImg {
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 255, 255, 0.5);
+}
+
+/* Text Section */
+.content {
+    text-align: center; /* Center-align the text */
+}
+
+.greet {
+    font-size: 2rem;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-top: 10px;
+}
+
+.name {
+    color: cyan;
+    font-weight: bold;
+}
+
+.subtitle {
+    color: #0badb3;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.description {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+/* Contact Button */
+.actionBtn {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 20px;
+}
+
+.btn-outline-info {
+    color: cyan;
+    border: 2px solid cyan;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-outline-info:hover {
+    background-color: cyan;
+    color: black;
+}
+
+.bgImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/rupixen-komB8F93618-unsplash.jpg'); /* Ensure the image path is correct */
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
