@@ -33,8 +33,8 @@ const Navbar = () => {
           <ul className="navbar-nav">
             {[
               { href: "/", label: "Home" },
-              { href: "/about", label: "About" },
-              { href: "/resume", label: "Work Experience" },
+              { href: "/about", label: "Skill" },
+              { href: "/resume", label: "Experience" },
               { href: "/projects", label: "Blogs / Projects" },
               { href: "/contact", label: "Contact" },
             ].map((item) => (
