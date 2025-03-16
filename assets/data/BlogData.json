@@ -22,7 +22,7 @@
         },
         {
             "blogId": 3,
-            "blogImg": "/logos/devops.png",
+            "blogImg": "/devops.png",
             "blogTitle": "End-to-end Pipeline for Azure Kubernetes Services",
             "blogDesc": "This blog covers the creation of an end-to-end pipeline for deploying applications to Azure Kubernetes Services (AKS) using Docker and YAML.",
             "blogUrl": {
